@@ -12,7 +12,7 @@ This repository provides guidance and resources for setting up a headless Siteco
 
 ## Installation
 
-1. **Download Headless Services Package**: Download the Sitecore Headless Services zip package from the [Sitecore Downloads]([https://sitecore.com/downloads](https://dev.sitecore.net/Downloads/Sitecore_Headless_Rendering.aspx)) page. Refer to the [compatibility table](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000576) for compatibility information with Sitecore XP 10.0 and later versions.
+1. **Download Headless Services Package**: Download the Sitecore Headless Services zip package from the [Sitecore Downloads](https://dev.sitecore.net/Downloads/Sitecore_Headless_Rendering.aspx) page. Refer to the [compatibility table](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000576) for compatibility information with Sitecore XP 10.0 and later versions.
 
 2. **Install Package**: Log in to your Sitecore instance, open the Desktop, navigate to Development Tools, and then click on Installation Wizard. Follow the wizard to install the downloaded package.
 
