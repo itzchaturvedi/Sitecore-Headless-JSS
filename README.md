@@ -4,30 +4,32 @@
 |-------------|----------------------|-----------------------|
 | Priyanshu Kuldeep    |  itzchaturvedi@gmail.com   | [github.com/itzchaturvedi](https://github.com/itzchaturvedi) |
 
+
 # Sitecore 10.2 Headless Development
-
-## Introduction
-
-This repository provides guidance and resources for setting up a headless Sitecore development environment using Sitecore JavaScript Services (JSS). Follow the steps below to install Sitecore Headless Services and configure your instance.
 
 ## Installation
 
-1. **Download Headless Services Package**: Download the Sitecore Headless Services zip package from the [Sitecore Downloads](https://dev.sitecore.net/Downloads/Sitecore_Headless_Rendering.aspx) page. Refer to the [compatibility table](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000576) for compatibility information with Sitecore XP 10.0 and later versions.
+To begin developing with Sitecore 10.2 Headless Development, follow these steps:
 
-2. **Install Package**: Log in to your Sitecore instance, open the Desktop, navigate to Development Tools, and then click on Installation Wizard. Follow the wizard to install the downloaded package.
+1. **Download Headless Services Package**: First, download the Sitecore Headless Services zip package from the [Sitecore Downloads](https://sitecore.com/downloads) page. Check the [compatibility table](https://sitecore.com/compatibility) to ensure compatibility with Sitecore XP 10.0 and later versions.
 
-3. **Verify Installation**: Once the package is installed, verify the installation by accessing the following URL in your browser:
+2. **Install Package**: Log in to your Sitecore instance, then open the Desktop. Navigate to Development Tools, then click on Installation Wizard. Follow the instructions to install the downloaded package.
 
-4. Replace `your-sitecore-instance` with your Sitecore instance URL. 
+3. **Verify Installation**: After installation, verify by accessing the following URL in your browser:
 
-4. **API Key Configuration**: Navigate to `/sitecore/templates/System/Services/API Key` and insert the API key corresponding to your Sitecore instance. Set the CORS Origins and Allowed Controllers as required. Publish the changes.
+http://your-sitecore-instance/sitecore/api/layout/render/jss?item=/&sc_apikey=TEST
 
-5. **Test Configuration**: Run the following URL to ensure the setup is complete:
 Replace `your-sitecore-instance` with your Sitecore instance URL.
 
-6. **JSON Formatter**: Download and integrate the JSON formatter as required for your project.
+4. **API Key Configuration**: Go to `/sitecore/templates/System/Services/API Key` and insert your Sitecore instance's API key. For example, if your instance is named `sc102`, use that as the API key. Set CORS Origins and Allowed Controllers as needed. Publish the changes.
 
-## Setup
+5. **Test Configuration**: Run the following URL:
 
-Follow the installation steps above to set up the headless development environment for Sitecore 10.2 using JavaScript Services (JSS).
+http://xp102sc.dev.local/sitecore/api/layout/render/jss?item=/&sc_apikey=TEST
+
+Replace `xp102sc.dev.local` with your Sitecore instance URL. Use the ItemID provided by your Sitecore instance at the place of TEST
+
+6. **Download JSON Formatter**: Download the JSON formatter as required for your project.
+
+Congratulations! You've completed the setup for Sitecore 10.2 Headless Development.
 
