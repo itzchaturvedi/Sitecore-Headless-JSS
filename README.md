@@ -11,7 +11,7 @@
 
 To begin developing with Sitecore 10.2 Headless Development, follow these steps:
 
-1. **Download Headless Services Package**: First, download the Sitecore Headless Services zip package from the [Sitecore Downloads](https://sitecore.com/downloads) page. Check the [compatibility table](https://sitecore.com/compatibility) to ensure compatibility with Sitecore XP 10.0 and later versions.
+1. **Download Headless Services Package**: First, download the Sitecore Headless Services zip package from the [Sitecore Downloads](https://dev.sitecore.net/Downloads/Sitecore_Headless_Rendering.aspx) page. Check the [compatibility table](https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB1000576) to ensure compatibility with Sitecore XP 10.0 and later versions.
 
 2. **Install Package**: Log in to your Sitecore instance, then open the Desktop. Navigate to Development Tools, then click on Installation Wizard. Follow the instructions to install the downloaded package.
 
